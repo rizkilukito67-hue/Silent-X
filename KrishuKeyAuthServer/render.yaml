@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: krishu-keyauth-api
+    runtime: python
+    region: singapore
+    plan: free
+    buildCommand: ""
+    startCommand: python server.py
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000

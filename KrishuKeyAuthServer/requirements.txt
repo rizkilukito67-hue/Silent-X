@@ -1,0 +1,2 @@
+# Krishu KeyAuth API Server
+# Menggunakan Python 3 Standard Library (Zero-Dependency)
